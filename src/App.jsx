@@ -10,9 +10,10 @@ function App() {
       <Saludo />
       <h1>Comprando productos</h1>
       <h2>Tienda React</h2>
-      <Producto />
-      <Producto />
-      <Producto />
+      <Producto 
+        nombre = ""
+        precio = ""
+      />
     </div>
   )
 }

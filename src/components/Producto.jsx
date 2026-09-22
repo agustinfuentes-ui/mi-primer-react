@@ -1,8 +1,8 @@
-function Producto() {
+function Producto(props) {
     return(
         <div>
-            <h3>Notebook lenovo</h3>
-            <p>precio $700.000</p>
+            <h3>{props.nombre}</h3>
+            <p>Precio: {props.precio}</p>
             <button>Comprar</button>
         </div>
     )

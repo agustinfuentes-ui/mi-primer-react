@@ -3,7 +3,7 @@ import Producto from './components/Producto'
 
 {/*Comentarios */}
 
-function app() {
+function App() {
   return(
     <div>
       <h1>Miprimera aplicacion</h1>

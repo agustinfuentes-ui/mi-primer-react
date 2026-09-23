@@ -1,7 +1,7 @@
 function Saludo() {
     return(
         <div>
-            <h2>holaa</h2>
+            <h2>hola</h2>
             <p>este es mi primer componente</p>
         </div>
     )

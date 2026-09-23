@@ -1,5 +1,6 @@
 import Saludo from './components/Saludo'
 import Producto from './components/Producto'
+import Contador from './components/Contador'
 
 {/*Comentarios */}
 
@@ -11,9 +12,10 @@ function App() {
       <h1>Comprando productos</h1>
       <h2>Tienda React</h2>
       <Producto 
-        nombre = ""
-        precio = ""
+        nombre = "Lenovo laptop"
+        precio = "$700.000"
       />
+      <Contador />
     </div>
   )
 }
